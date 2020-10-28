@@ -1,6 +1,6 @@
 {
   "name": "ISS",
-  "homepage": "https://hrvoje-rama.github.io/iss-tracker/",
+  "homepage": "https://hrvoje-rama.github.io/iss-tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
