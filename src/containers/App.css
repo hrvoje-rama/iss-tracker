@@ -1,0 +1,17 @@
+@font-face {
+font-family: 'SF Distant Galaxy AltOutline';
+font-style: normal;
+font-weight: normal;
+src: local('SF Distant Galaxy AltOutline'), url('SF Distant Galaxy AltOutline.woff') format('woff');
+}
+
+h1 {
+	font-family: 'SF Distant Galaxy AltOutline';
+	font-weight: 200;
+	color: #0ccac4;
+}
+#MAP {
+	font-family: 'SF Distant Galaxy AltOutline';
+	font-weight: 200;
+	color: #0ccac4;
+}
