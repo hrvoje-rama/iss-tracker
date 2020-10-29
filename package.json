@@ -1,6 +1,6 @@
 {
   "name": "ISS",
-  "homepage": "https://hrvoje-rama.github.io/iss-tracker/",
+  "homepage": "https://hrvoje-rama.github.io/iss-tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,12 +13,12 @@
     "tachyons": "^4.12.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build --env=jsdom",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
