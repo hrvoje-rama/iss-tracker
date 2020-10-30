@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const ISS_URL = "http://api.open-notify.org/iss-now.json"
+const ISS_URL = "https://api.wheretheiss.at/v1/satellites/25544"
 const MAP_KEY = process.env.REACT_APP_MAP_KEY
 const img = <img src = "./iss.svg" alt = "iss" height = "30px"/>
 
@@ -31,8 +31,8 @@ class Map extends React.Component{
             .then(res => res.json())
             .then(data => this.setState({
                 center: {
-                    lat: data.iss_position.latitude,
-                    lng: data.iss_position.longitude
+                    lat: data.latitude,
+                    lng: data.longitude
                 }
             }))
     }
