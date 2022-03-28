@@ -10,7 +10,7 @@ function App() {
 		 <div className='f1' id="MAP">
 		 <Map />
 		 <div id="container">
-    	<img src="https://hrvojeramljak.from.hr/Asset%2040.svg"/>
+    	<img src="https://raw.githubusercontent.com/hrvoje-rama/iss-tracker/ff1576b1e5f0e3d43809813e55254a436cf22cbb/src/rocket.svg"/>
 		</div>
 		 </div>
 		</div>
